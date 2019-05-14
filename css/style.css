@@ -4,13 +4,15 @@
 body {
     margin: 0;
     font-family: 'Heebo', sans-serif;
-    background-image: url('../img/monalisa.jpg');
+    background-image: url('../img/monalisa.jpg') ; 
+    background-size: cover;
 }
 
 .move-area{/*normally use body*/
   width: 100vw;
   height: 100vh;
   padding: 10% 45%;
+  
 }
 .container {
   width: 100%;
@@ -18,8 +20,8 @@ body {
 .lefteye {
   position: absolute;
   border-radius: 50%;
-  right: 605px;
-  top: 440px;
+  right: 905px;
+  top: 570px;
   height: 30px;
   width: 30px;
   background: #CCC;
@@ -27,8 +29,8 @@ body {
 .righteye {
   position: absolute;
   border-radius: 50%;
-  right: 715px;
-  top: 440px;
+  right: 1065px;
+  top: 570px;
   height: 30px;
   width: 30px;
   background: #CCC;
